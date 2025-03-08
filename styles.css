@@ -1,15 +1,16 @@
 /* styles.css */
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+body{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa toda la pantalla */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    }
 
 header {
     background-color: #3498db;
     color: white;
-    text-align: center;
     padding: 20px;
 }
 
@@ -19,7 +20,6 @@ header {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     margin: 20px;
     padding: 20px;
-    text-align: center;
 }
 
 .img {
@@ -30,7 +30,6 @@ header {
 footer {
     background-color: #2c3e50;
     color: white;
-    text-align: center;
     padding: 15px;
     margin-top: 20px;
 }
