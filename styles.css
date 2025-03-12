@@ -1,11 +1,11 @@
-/* styles.css */
+
 
 body{
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100vh; /* Ocupa toda la pantalla */
-    flex-direction: column; /* Apila los elementos verticalmente */
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    flex-direction: column; 
     }
 
 header {
